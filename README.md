@@ -3,23 +3,22 @@ This is an unbiased version of original WinCLIP: Zero-/Few-Shot Anomaly Classifi
 
 The implementation of CLIP is based on [open_clip](https://github.com/mlfoundations/open_clip)
 
-## Experiments setting
-### Requirements
+## Requirements
 This repository is implemented and tested on Python 3.8 and PyTorch 2.1.2 To install requirements:
 ```sh
 pip install -r requirements.txt
 ```
 
-### Dataset
-#### MvTec-AD
+## Dataset
+### MvTec-AD
 Download the dataset from [here.](https://www.mvtec.com/company/research/datasets/mvtec-ad/)
-#### VisA
+### VisA
 Download the dataset from [here.](https://amazon-visual-anomaly.s3.us-west-2.amazonaws.com/VisA_20220922.tar)
 
 #### Preprocessing
 To preprocess the data, run `mvtec.py` or `visa.py` located in the `data` folder.
 
-### Quick start
+## Quick start
 Few-shot anomaly detection 
 ```sh
 bash few_shot.sh
