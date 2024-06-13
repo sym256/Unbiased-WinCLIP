@@ -1,5 +1,5 @@
 # Unbiased-WinCLIP
-This is an unbiased version of original [WinCLIP](https://openaccess.thecvf.com/content/CVPR2023/papers/Jeong_WinCLIP_Zero-Few-Shot_Anomaly_Classification_and_Segmentation_CVPR_2023_paper.pdf)
+This is an unbiased version of original WinCLIP: Zero-/Few-Shot Anomaly Classification and Segmentation, CVPR 2023 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Jeong_WinCLIP_Zero-Few-Shot_Anomaly_Classification_and_Segmentation_CVPR_2023_paper.pdf)
 
 The implementation of CLIP is based on [open_clip](https://github.com/mlfoundations/open_clip)
 
@@ -18,8 +18,7 @@ Download the dataset from [here.](https://www.mvtec.com/company/research/dataset
 Download the dataset from [here.](https://amazon-visual-anomaly.s3.us-west-2.amazonaws.com/VisA_20220922.tar)
 
 #### Preprocessing
-~
-
+To preprocess the data, run `mvtec.py` or `visa.py` located in the `data` folder.
 
 #### Quick start
 Few-shot anomaly detection 
