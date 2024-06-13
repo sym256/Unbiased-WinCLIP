@@ -20,38 +20,6 @@ Download the dataset from [here.](https://amazon-visual-anomaly.s3.us-west-2.ama
 #### Preprocessing
 ~
 
-Finally, make sure that these datasets follow the data tree.
-```sh
-MVTec-AD
-|-- carpet
-|-----|----- thresh
-|-----|----- ground_truth
-|-----|----- test
-|-----|--------|------ good
-|-----|--------|------ ...
-|-----|----- train
-|-----|--------|------ good
-|-- cable
-|-----|----- DISthresh
-|-----|----- ground_truth
-|-----|----- test
-|-----|--------|------ good
-|-----|--------|------ ...
-|-----|----- train
-|-----|--------|------ good
-
-VisA
-|-- candle
-|-----|----- DISthresh
-|-----|----- ground_truth
-|-----|----- test
-|-----|--------|------ good
-|-----|--------|------ bad
-|-----|----- train
-|-----|--------|------ good
-|-- capsules
-|-- ...
-```
 
 #### Quick start
 Few-shot anomaly detection 
