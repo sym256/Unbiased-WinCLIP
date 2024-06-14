@@ -4,7 +4,7 @@ This is an unbiased version of original WinCLIP: Zero-/Few-Shot Anomaly Classifi
 The implementation of CLIP is based on [open_clip](https://github.com/mlfoundations/open_clip)
 
 ## Requirements
-This repository is implemented and tested on Python 3.8.18 and PyTorch 2.1.2 To install requirements:
+This repository is implemented and tested on Python 3.8 and PyTorch 2.1.2 To install requirements:
 ```sh
 pip install -r requirements.txt
 ```
